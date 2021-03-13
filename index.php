@@ -22,7 +22,7 @@ $settings->setAppFolder('/');
 
 // Add your DB settings. This is not the best practice, but it is okay for now.
 $settings->setDbConnection(array(
-    'server'   => 'localhost',      // Local MySQL server
+    'server'   => 'us-cdbr-east-03.cleardb.com',      // Local MySQL server
     'database' => 'heroku_b08d813101bad84', // Your DB name
     'username' => 'b484d0faeeec9a',           // Default username
     'password' => '8d826c1a'                // Default password
