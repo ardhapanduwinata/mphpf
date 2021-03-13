@@ -23,9 +23,9 @@ $settings->setAppFolder('/');
 // Add your DB settings. This is not the best practice, but it is okay for now.
 $settings->setDbConnection(array(
     'server'   => 'localhost',      // Local MySQL server
-    'database' => 'mphp_sample_db', // Your DB name
-    'username' => 'root',           // Default username
-    'password' => ''                // Default password
+    'database' => 'heroku_b08d813101bad84', // Your DB name
+    'username' => 'b484d0faeeec9a',           // Default username
+    'password' => '8d826c1a'                // Default password
 ));
 
 // This is how to set up your route
