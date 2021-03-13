@@ -53,9 +53,10 @@ class DosenController extends Controller
         $nama = $_POST['nama'];
         $alamat = $_POST['alamat'];
         $prodi = $_POST['prodi'];
+        $jurusan = $_POST['jurusan'];
         $notelp = $_POST['notelp'];
 
-        $this->mDosen->addNew($nip, $nama, $alamat, $prodi, $notelp);
+        $this->mDosen->addNew($nip, $nama, $alamat, $prodi, $jurusan, $notelp);
     }
 }
 

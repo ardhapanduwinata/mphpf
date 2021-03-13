@@ -20,9 +20,9 @@ class DosenModel extends Model
         return $records;
     }
 
-    public function addNew($nip, $nama, $alamat, $prodi, $notelp)
+    public function addNew($nip, $nama, $alamat, $prodi, $jurusan, $notelp)
     {
-        $sql = "INSERT INTO {$this->tableName} (nip, nama, alamat, prodiJurusan, notelp) VALUES ('$nip', '$nama', '$alamat', '$prodi', '$notelp')";
+        $sql = "INSERT INTO {$this->tableName} (nip, nama, alamat, prodi, jurusan, notelp) VALUES ('$nip', '$nama', '$alamat', '$prodi', '$jurusan', '$notelp')";
 
         $this->executeWriteSQL($sql);
     }
