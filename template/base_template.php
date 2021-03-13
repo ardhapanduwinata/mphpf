@@ -12,11 +12,11 @@
             <img src="static/favicon.png" style="width: 50px; height: 50px; margin: 4px;"/>
         </td>
         <td style="padding: 4px;">
-            <b><a href="<?php echo $this->homeAddress(); ?>">M PHP Framework Sample App</a></b>
+            <b><a href="<?php echo $this->homeAddress('/'); ?>">M PHP Framework Sample App</a></b>
         </td>
         <td style="text-align: right; padding: 4px;">
-            <a href="<?php echo $this->homeAddress('/link_one'); ?>">Link One</a>
-            <a href="<?php echo $this->homeAddress('/link_two'); ?>">Link Two</a>
+            <a href="<?php echo $this->homeAddress('/dosen'); ?>">Data Dosen</a>
+            <a href="<?php echo $this->homeAddress('/'); ?>">Data Mahasiswa</a>
             <a href="<?php echo $this->homeAddress('/link_three'); ?>">Link Three</a>
         </td>
     </tr>
