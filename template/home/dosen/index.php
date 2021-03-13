@@ -7,7 +7,8 @@
         <td class="data-table-td">NIP</td>
         <td class="data-table-td">Nama</td>
         <td class="data-table-td">Alamat</td>
-        <td class="data-table-td">Prodi Jurusan</td>
+        <td class="data-table-td">Prodi</td>
+        <td class="data-table-td">Jurusan</td>
         <td class="data-table-td">No. Telepon</td>
     </thead>
     <tbody>
@@ -16,7 +17,8 @@
             <td class="data-table-td"><?= $dosen['nip'] ?></td>
             <td class="data-table-td"><?= $dosen['nama'] ?></td>
             <td class="data-table-td"><?= $dosen['alamat'] ?></td>
-            <td class="data-table-td"><?= $dosen['prodiJurusan']?></td>
+            <td class="data-table-td"><?= $dosen['prodi']?></td>
+            <td class="data-table-td"><?= $dosen['jurusan']?></td>
             <td class="data-table-td"><?= $dosen['notelp'] ?></td>
         </tr>
     <?php } ?>

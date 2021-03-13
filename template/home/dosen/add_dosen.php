@@ -11,9 +11,13 @@
     <br>
     <textarea style="margin-bottom: 16px; width: 20%; height: 60px;" id="area_alamat" type="text" placeholder="Alamat lengkap anda" name="alamat"></textarea>
     <br>
-    <label for="area_jurusan">Prodi Jurusan:</label>
+    <label for="area_prodi">Prodi:</label>
     <br>
-    <input style="margin-bottom: 16px; width: 20%" id="area_jurusan" type="text" placeholder="Prodi Jurusan anda" name="prodi"/>
+    <input style="margin-bottom: 16px; width: 20%" id="area_prodi" type="text" placeholder="Prodi anda" name="prodi"/>
+    <br>
+    <label for="area_jurusan">Jurusan:</label>
+    <br>
+    <input style="margin-bottom: 16px; width: 20%" id="area_jurusan" type="text" placeholder="Jurusan anda" name="jurusan"/>
     <br>
     <label for="area_notelp">No. Telepon:</label>
     <br>
