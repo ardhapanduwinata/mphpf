@@ -18,7 +18,7 @@ $settings = Settings::getInstance();
 
 // The app folder relative to your htdocs folder.
 // $settings->setAppFolder('/MPHPFramework');
-$settings->setAppFolder('/https://dashboard.heroku.com/apps/mphpf');
+$settings->setAppFolder('/ardhapanduwinata/mphpf');
 
 // Add your DB settings. This is not the best practice, but it is okay for now.
 $settings->setDbConnection(array(
